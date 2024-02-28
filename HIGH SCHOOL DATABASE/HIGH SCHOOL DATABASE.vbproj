@@ -48,6 +48,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -85,10 +89,58 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1e.Designer.vb">
+      <DependentUpon>Form1e.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1e.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form1n.Designer.vb">
+      <DependentUpon>form1n.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form1n.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form1s.Designer.vb">
+      <DependentUpon>form1s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form1s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form1w.Designer.vb">
+      <DependentUpon>form1w.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form1w.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
     <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form2e.Designer.vb">
+      <DependentUpon>form2e.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form2e.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form2n.Designer.vb">
+      <DependentUpon>form2n.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form2n.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form2s.Designer.vb">
+      <DependentUpon>form2s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form2s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form2w.Designer.vb">
+      <DependentUpon>form2w.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form2w.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.vb">
@@ -97,16 +149,88 @@
     <Compile Include="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="form3e.Designer.vb">
+      <DependentUpon>form3e.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form3e.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form3n.Designer.vb">
+      <DependentUpon>form3n.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form3n.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form3s.Designer.vb">
+      <DependentUpon>form3s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form3s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form3w.Designer.vb">
+      <DependentUpon>form3w.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form3w.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form4.Designer.vb">
       <DependentUpon>Form4.vb</DependentUpon>
     </Compile>
     <Compile Include="Form4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="form4e.Designer.vb">
+      <DependentUpon>form4e.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form4e.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form4n.Designer.vb">
+      <DependentUpon>form4n.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form4n.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form4s.Designer.vb">
+      <DependentUpon>form4s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form4s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form4w.Designer.vb">
+      <DependentUpon>form4w.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form4w.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form5.Designer.vb">
       <DependentUpon>Form5.vb</DependentUpon>
     </Compile>
     <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form5e.Designer.vb">
+      <DependentUpon>form5e.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form5e.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form5n.Designer.vb">
+      <DependentUpon>form5n.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form5n.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form5s.Designer.vb">
+      <DependentUpon>form5s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form5s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form5w.Designer.vb">
+      <DependentUpon>form5w.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form5w.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form6.Designer.vb">
@@ -119,6 +243,12 @@
       <DependentUpon>Forms.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="from2w.Designer.vb">
+      <DependentUpon>from2w.vb</DependentUpon>
+    </Compile>
+    <Compile Include="from2w.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="main.vb">
@@ -176,23 +306,86 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1e.resx">
+      <DependentUpon>Form1e.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form1n.resx">
+      <DependentUpon>form1n.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form1s.resx">
+      <DependentUpon>form1s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form1w.resx">
+      <DependentUpon>form1w.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form2e.resx">
+      <DependentUpon>form2e.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form2n.resx">
+      <DependentUpon>form2n.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form2s.resx">
+      <DependentUpon>form2s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form2w.resx">
+      <DependentUpon>form2w.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="form3e.resx">
+      <DependentUpon>form3e.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form3n.resx">
+      <DependentUpon>form3n.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form3s.resx">
+      <DependentUpon>form3s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form3w.resx">
+      <DependentUpon>form3w.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="form4e.resx">
+      <DependentUpon>form4e.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form4n.resx">
+      <DependentUpon>form4n.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form4s.resx">
+      <DependentUpon>form4s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form4w.resx">
+      <DependentUpon>form4w.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form5e.resx">
+      <DependentUpon>form5e.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form5n.resx">
+      <DependentUpon>form5n.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form5s.resx">
+      <DependentUpon>form5s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form5w.resx">
+      <DependentUpon>form5w.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms.resx">
       <DependentUpon>Forms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="from2w.resx">
+      <DependentUpon>from2w.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>
