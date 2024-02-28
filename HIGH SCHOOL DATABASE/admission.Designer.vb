@@ -22,200 +22,39 @@ Partial Class admission
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.exp_datepicker = New System.Windows.Forms.DateTimePicker()
+        Me.combo_dorm = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btn_reset = New System.Windows.Forms.Button()
+        Me.btn_save = New System.Windows.Forms.Button()
+        Me.text_firstsname = New System.Windows.Forms.TextBox()
+        Me.txt_sur = New System.Windows.Forms.TextBox()
+        Me.text_form = New System.Windows.Forms.TextBox()
+        Me.text_stream = New System.Windows.Forms.TextBox()
+        Me.text_phonenumber = New System.Windows.Forms.TextBox()
+        Me.txt_adm = New System.Windows.Forms.TextBox()
+        Me.txt_firstname = New System.Windows.Forms.Label()
+        Me.txt_surname = New System.Windows.Forms.Label()
+        Me.txt_form = New System.Windows.Forms.Label()
+        Me.txt_stream = New System.Windows.Forms.Label()
+        Me.txt_phone = New System.Windows.Forms.Label()
+        Me.txt_dorm = New System.Windows.Forms.Label()
+        Me.txt_adm_no = New System.Windows.Forms.Label()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(36, 217)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(80, 22)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ADM.NO"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(1001, 217)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 18)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "DORMITORY"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(721, 217)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(281, 18)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "PARENT/GUARDIAN PHONE NUMBER"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(631, 217)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(72, 18)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "STREAM"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(535, 217)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(52, 18)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "FORM"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(375, 217)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(84, 18)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "SURNAME"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.DarkSalmon
-        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(177, 217)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 18)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "FIRST NAME"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.Location = New System.Drawing.Point(20, 248)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(96, 22)
-        Me.TextBox1.TabIndex = 7
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(1001, 248)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(111, 22)
-        Me.TextBox2.TabIndex = 8
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(749, 248)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(224, 22)
-        Me.TextBox3.TabIndex = 9
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(616, 248)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(96, 22)
-        Me.TextBox4.TabIndex = 10
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(511, 248)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(96, 22)
-        Me.TextBox5.TabIndex = 11
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(327, 248)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(175, 22)
-        Me.TextBox6.TabIndex = 12
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(143, 248)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(175, 22)
-        Me.TextBox7.TabIndex = 13
-        '
-        'ListView1
-        '
-        Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(194, 382)
-        Me.ListView1.Margin = New System.Windows.Forms.Padding(4)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(863, 149)
-        Me.ListView1.TabIndex = 14
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Blue
-        Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(497, 354)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(112, 26)
-        Me.Label8.TabIndex = 15
-        Me.Label8.Text = "LIST VIEW"
         '
         'Panel1
         '
@@ -226,97 +65,341 @@ Partial Class admission
         Me.Panel1.Size = New System.Drawing.Size(10, 649)
         Me.Panel1.TabIndex = 16
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Maroon
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(903, 308)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(135, 49)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "ADMIT"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.HIGH_SCHOOL_DATABASE.My.Resources.Resources._7749968
         Me.PictureBox1.Location = New System.Drawing.Point(20, -2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(222, 200)
+        Me.PictureBox1.Size = New System.Drawing.Size(1324, 200)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 18
         Me.PictureBox1.TabStop = False
         '
-        'Button4
+        'DataGridView1
         '
-        Me.Button4.BackColor = System.Drawing.Color.Maroon
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(721, 308)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(135, 46)
-        Me.Button4.TabIndex = 21
-        Me.Button4.Text = "EXIT"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.DataGridView1.AllowUserToOrderColumns = True
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column7, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
+        Me.DataGridView1.GridColor = System.Drawing.Color.White
+        Me.DataGridView1.Location = New System.Drawing.Point(538, 248)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(806, 364)
+        Me.DataGridView1.TabIndex = 25
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Navy
+        Me.Panel2.Controls.Add(Me.exp_datepicker)
+        Me.Panel2.Controls.Add(Me.combo_dorm)
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Controls.Add(Me.btn_reset)
+        Me.Panel2.Controls.Add(Me.btn_save)
+        Me.Panel2.Controls.Add(Me.text_firstsname)
+        Me.Panel2.Controls.Add(Me.txt_sur)
+        Me.Panel2.Controls.Add(Me.text_form)
+        Me.Panel2.Controls.Add(Me.text_stream)
+        Me.Panel2.Controls.Add(Me.text_phonenumber)
+        Me.Panel2.Controls.Add(Me.txt_adm)
+        Me.Panel2.Controls.Add(Me.txt_firstname)
+        Me.Panel2.Controls.Add(Me.txt_surname)
+        Me.Panel2.Controls.Add(Me.txt_form)
+        Me.Panel2.Controls.Add(Me.txt_stream)
+        Me.Panel2.Controls.Add(Me.txt_phone)
+        Me.Panel2.Controls.Add(Me.txt_dorm)
+        Me.Panel2.Controls.Add(Me.txt_adm_no)
+        Me.Panel2.Location = New System.Drawing.Point(13, 195)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(519, 464)
+        Me.Panel2.TabIndex = 26
+        '
+        'exp_datepicker
+        '
+        Me.exp_datepicker.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.exp_datepicker.Location = New System.Drawing.Point(248, 301)
+        Me.exp_datepicker.Name = "exp_datepicker"
+        Me.exp_datepicker.Size = New System.Drawing.Size(138, 22)
+        Me.exp_datepicker.TabIndex = 42
+        '
+        'combo_dorm
+        '
+        Me.combo_dorm.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.combo_dorm.FormattingEnabled = True
+        Me.combo_dorm.Items.AddRange(New Object() {"MULEI", "BUFFALO", "TIGER", "SIMBA", "GIRAFFE", "RHINO"})
+        Me.combo_dorm.Location = New System.Drawing.Point(3, 304)
+        Me.combo_dorm.Name = "combo_dorm"
+        Me.combo_dorm.Size = New System.Drawing.Size(121, 23)
+        Me.combo_dorm.TabIndex = 41
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.DarkSalmon
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(309, 255)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(34, 17)
+        Me.Label1.TabIndex = 40
+        Me.Label1.Text = "Date"
+        '
+        'btn_reset
+        '
+        Me.btn_reset.BackColor = System.Drawing.Color.Maroon
+        Me.btn_reset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_reset.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_reset.ForeColor = System.Drawing.Color.White
+        Me.btn_reset.Location = New System.Drawing.Point(49, 385)
+        Me.btn_reset.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_reset.Name = "btn_reset"
+        Me.btn_reset.Size = New System.Drawing.Size(135, 46)
+        Me.btn_reset.TabIndex = 39
+        Me.btn_reset.Text = "EXIT"
+        Me.btn_reset.UseVisualStyleBackColor = False
+        '
+        'btn_save
+        '
+        Me.btn_save.BackColor = System.Drawing.Color.Maroon
+        Me.btn_save.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_save.ForeColor = System.Drawing.Color.White
+        Me.btn_save.Location = New System.Drawing.Point(273, 382)
+        Me.btn_save.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_save.Name = "btn_save"
+        Me.btn_save.Size = New System.Drawing.Size(135, 49)
+        Me.btn_save.TabIndex = 38
+        Me.btn_save.Text = "ADMIT"
+        Me.btn_save.UseVisualStyleBackColor = False
+        '
+        'text_firstsname
+        '
+        Me.text_firstsname.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.text_firstsname.Location = New System.Drawing.Point(137, 77)
+        Me.text_firstsname.Margin = New System.Windows.Forms.Padding(4)
+        Me.text_firstsname.Name = "text_firstsname"
+        Me.text_firstsname.Size = New System.Drawing.Size(175, 22)
+        Me.text_firstsname.TabIndex = 37
+        '
+        'txt_sur
+        '
+        Me.txt_sur.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_sur.Location = New System.Drawing.Point(321, 77)
+        Me.txt_sur.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_sur.Name = "txt_sur"
+        Me.txt_sur.Size = New System.Drawing.Size(175, 22)
+        Me.txt_sur.TabIndex = 36
+        '
+        'text_form
+        '
+        Me.text_form.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.text_form.Location = New System.Drawing.Point(7, 192)
+        Me.text_form.Margin = New System.Windows.Forms.Padding(4)
+        Me.text_form.Name = "text_form"
+        Me.text_form.Size = New System.Drawing.Size(96, 22)
+        Me.text_form.TabIndex = 35
+        '
+        'text_stream
+        '
+        Me.text_stream.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.text_stream.Location = New System.Drawing.Point(137, 192)
+        Me.text_stream.Margin = New System.Windows.Forms.Padding(4)
+        Me.text_stream.Name = "text_stream"
+        Me.text_stream.Size = New System.Drawing.Size(96, 22)
+        Me.text_stream.TabIndex = 34
+        '
+        'text_phonenumber
+        '
+        Me.text_phonenumber.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.text_phonenumber.Location = New System.Drawing.Point(285, 196)
+        Me.text_phonenumber.Margin = New System.Windows.Forms.Padding(4)
+        Me.text_phonenumber.Name = "text_phonenumber"
+        Me.text_phonenumber.Size = New System.Drawing.Size(224, 22)
+        Me.text_phonenumber.TabIndex = 33
+        '
+        'txt_adm
+        '
+        Me.txt_adm.BackColor = System.Drawing.SystemColors.Window
+        Me.txt_adm.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_adm.Location = New System.Drawing.Point(14, 77)
+        Me.txt_adm.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_adm.Name = "txt_adm"
+        Me.txt_adm.Size = New System.Drawing.Size(96, 22)
+        Me.txt_adm.TabIndex = 32
+        '
+        'txt_firstname
+        '
+        Me.txt_firstname.AutoSize = True
+        Me.txt_firstname.BackColor = System.Drawing.Color.Crimson
+        Me.txt_firstname.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_firstname.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_firstname.Location = New System.Drawing.Point(171, 46)
+        Me.txt_firstname.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_firstname.Name = "txt_firstname"
+        Me.txt_firstname.Size = New System.Drawing.Size(84, 17)
+        Me.txt_firstname.TabIndex = 31
+        Me.txt_firstname.Text = "FIRST NAME"
+        '
+        'txt_surname
+        '
+        Me.txt_surname.AutoSize = True
+        Me.txt_surname.BackColor = System.Drawing.Color.Crimson
+        Me.txt_surname.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_surname.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_surname.Location = New System.Drawing.Point(369, 46)
+        Me.txt_surname.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_surname.Name = "txt_surname"
+        Me.txt_surname.Size = New System.Drawing.Size(70, 17)
+        Me.txt_surname.TabIndex = 30
+        Me.txt_surname.Text = "SURNAME"
+        '
+        'txt_form
+        '
+        Me.txt_form.AutoSize = True
+        Me.txt_form.BackColor = System.Drawing.Color.DarkSalmon
+        Me.txt_form.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_form.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_form.Location = New System.Drawing.Point(14, 154)
+        Me.txt_form.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_form.Name = "txt_form"
+        Me.txt_form.Size = New System.Drawing.Size(46, 17)
+        Me.txt_form.TabIndex = 29
+        Me.txt_form.Text = "FORM"
+        '
+        'txt_stream
+        '
+        Me.txt_stream.AutoSize = True
+        Me.txt_stream.BackColor = System.Drawing.Color.DarkSalmon
+        Me.txt_stream.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_stream.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_stream.Location = New System.Drawing.Point(157, 154)
+        Me.txt_stream.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_stream.Name = "txt_stream"
+        Me.txt_stream.Size = New System.Drawing.Size(61, 17)
+        Me.txt_stream.TabIndex = 28
+        Me.txt_stream.Text = "STREAM"
+        '
+        'txt_phone
+        '
+        Me.txt_phone.AutoSize = True
+        Me.txt_phone.BackColor = System.Drawing.Color.DarkSalmon
+        Me.txt_phone.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_phone.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_phone.Location = New System.Drawing.Point(285, 154)
+        Me.txt_phone.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_phone.Name = "txt_phone"
+        Me.txt_phone.Size = New System.Drawing.Size(230, 17)
+        Me.txt_phone.TabIndex = 27
+        Me.txt_phone.Text = "PARENT/GUARDIAN PHONE NUMBER"
+        '
+        'txt_dorm
+        '
+        Me.txt_dorm.AutoSize = True
+        Me.txt_dorm.BackColor = System.Drawing.Color.DarkSalmon
+        Me.txt_dorm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_dorm.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_dorm.Location = New System.Drawing.Point(15, 273)
+        Me.txt_dorm.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_dorm.Name = "txt_dorm"
+        Me.txt_dorm.Size = New System.Drawing.Size(87, 17)
+        Me.txt_dorm.TabIndex = 26
+        Me.txt_dorm.Text = "DORMITORY"
+        '
+        'txt_adm_no
+        '
+        Me.txt_adm_no.AutoSize = True
+        Me.txt_adm_no.BackColor = System.Drawing.Color.Crimson
+        Me.txt_adm_no.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.txt_adm_no.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_adm_no.Location = New System.Drawing.Point(30, 46)
+        Me.txt_adm_no.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txt_adm_no.Name = "txt_adm_no"
+        Me.txt_adm_no.Size = New System.Drawing.Size(60, 17)
+        Me.txt_adm_no.TabIndex = 25
+        Me.txt_adm_no.Text = "ADM.NO"
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "ADM .NO"
+        Me.Column1.Name = "Column1"
+        '
+        'Column7
+        '
+        Me.Column7.HeaderText = "FIRST NAME"
+        Me.Column7.Name = "Column7"
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "SURNAME"
+        Me.Column2.Name = "Column2"
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "PARENT PHONE"
+        Me.Column3.Name = "Column3"
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "STREAM"
+        Me.Column4.Name = "Column4"
+        '
+        'Column5
+        '
+        Me.Column5.HeaderText = "FORM"
+        Me.Column5.Name = "Column5"
+        '
+        'Column6
+        '
+        Me.Column6.HeaderText = "DORMITORY"
+        Me.Column6.Name = "Column6"
         '
         'admission
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1259, 659)
-        Me.Controls.Add(Me.Button4)
+        Me.ClientSize = New System.Drawing.Size(1332, 659)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "admission"
         Me.Text = "admissio"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents ListView1 As ListView
-    Friend WithEvents Label8 As Label
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button4 As Button
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents exp_datepicker As DateTimePicker
+    Friend WithEvents combo_dorm As ComboBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents btn_reset As Button
+    Friend WithEvents btn_save As Button
+    Friend WithEvents text_firstsname As TextBox
+    Friend WithEvents txt_sur As TextBox
+    Friend WithEvents text_form As TextBox
+    Friend WithEvents text_stream As TextBox
+    Friend WithEvents text_phonenumber As TextBox
+    Friend WithEvents txt_adm As TextBox
+    Friend WithEvents txt_firstname As Label
+    Friend WithEvents txt_surname As Label
+    Friend WithEvents txt_form As Label
+    Friend WithEvents txt_stream As Label
+    Friend WithEvents txt_phone As Label
+    Friend WithEvents txt_dorm As Label
+    Friend WithEvents txt_adm_no As Label
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
 End Class
